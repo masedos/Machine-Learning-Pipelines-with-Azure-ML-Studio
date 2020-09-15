@@ -18,7 +18,7 @@ We will accomplish it by completing the following tasks in the project:
 
 ### To access the dataset
 
-#### Weather Dataset.csv
+#### Adult Census Income Binary Classification dataset
 ```python
 from azureml import Workspace
 ws = Workspace(
@@ -26,17 +26,6 @@ ws = Workspace(
     authorization_token='2saJtX+Ib+DRlcVMgRG/d00twJXCmsZPK//K0sXD/nFkQ1VvoR5CqjIW06m/3T3MprPWw4hyOiwjDuUdO0E+hQ==',
     endpoint='https://studioapi.azureml.net'
 )
-ds = ws.datasets['Weather Dataset.csv']
-frame = ds.to_dataframe()
-```
-#### Flight Delays Data.csv
-```python
-from azureml import Workspace
-ws = Workspace(
-    workspace_id='db68414bc7024ab0875349b59784056b',
-    authorization_token='2saJtX+Ib+DRlcVMgRG/d00twJXCmsZPK//K0sXD/nFkQ1VvoR5CqjIW06m/3T3MprPWw4hyOiwjDuUdO0E+hQ==',
-    endpoint='https://studioapi.azureml.net'
-)
-ds = ws.datasets['Flight Delays Data.csv']
+ds = ws.datasets['Adult Census Income Binary Classification dataset']
 frame = ds.to_dataframe()
 ```

@@ -13,7 +13,7 @@ We will accomplish it by completing the following tasks in the project:
 - Task 6: Publishing the Trained Model as a Web Service for Inference
 <br>
 
-![Evaluation results](https://github.com/masedos/Predictive-Modelling-with-Azure-Machine-Learning-Studio/blob/master/Evaluation_results.PNG)
+![Evaluation results](https://github.com/masedos/Machine-Learning-Pipelines-with-Azure-ML-Studio/blob/master/Evaluation_results.PNG)
 
 
 ### To access the dataset
